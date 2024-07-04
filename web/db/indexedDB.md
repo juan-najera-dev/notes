@@ -101,7 +101,7 @@ function obtenerClientes() {
         console.log("id", id);
         cursor.continue();
       } else {
-        console.log("No hay registros o mas registris");
+        console.log("No hay registros o más registros");
       }
     };
   };
