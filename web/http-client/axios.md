@@ -33,6 +33,7 @@ const update = (id, newObject) => {
 
 export default { getAll, update };
 ```
+### Ejemplo
 
 ```js
 // Common JS
@@ -70,7 +71,8 @@ axios
     // siempre sera ejecutado
   });
 
-// ¿Quieres usar async/await? Añade la palabra reservada `async` a tu función/método externo.
+// async/await, Añada la palabra reservada `async` a tu función/método externo.
+// Note que se introdujo en ECMAScript 2017, por lo que navegadores antiguos no tienen soporte a async - await
 async function getUser() {
   try {
     const response = await axios.get("/user?ID=12345");
