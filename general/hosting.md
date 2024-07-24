@@ -17,6 +17,13 @@
 <dd>Significa "Protocolo de Transferencia de Hipertexto". Este es el protocolo de comunicación que permite el intercambio de datos de la Web. HTTP nos permite realizar peticiones de datos y recursos, como pueden ser los documentos HTML, CSS y JavaScript.</dd>
 </dl>
 
+## Diferentes Tipos de Hosting
+
+- Alojamiento Compartido (Shared Hosting): Usualmente el mas económico, se comparte el ancho de banda, potencia de procesamiento y memoria
+- Alojamiento vitual privado (Vitual Private Hosting): Se fijan recursos fijos a la instancia de VPS en el servidor
+- Alojamiento Dedicado (Dedicated Hosting): Servidor hardware dedicado, por lo tanto puede usar todos los recursos disponibles
+- Alojamiento en la Nube (Cloud Hosting): Tiene la capacidad de extenderse a través de multiples servidores físicos y vituales (escalabilidad), generalmente se cobra en función de los recursos utilizados
+
 ## Proceso
 
 Cuando se ingresa a una pagina de internet ocurre lo siguiente:
@@ -24,14 +31,14 @@ Cuando se ingresa a una pagina de internet ocurre lo siguiente:
 - El navegador accede al DNS para encontrar la direccion IP del sitio que se desea visitar
 - Ya con la dirección, el navegador puede hacer una petición HTTP al servidor con el sitio para que le proporcione los datos necesarios para cargar una página.
 - El servidor acepta la petición y envía los archivos necesarios en forma de pequeños paquetes.
-- Después, el navegador junta los datos recibidos y los interpreta para mostrar la página web que queremos.
+- Después, el navegador junta los datos recibidos y los interpreta para mostrar la página web.
 
 ## Escoger el alojamiento o Hosting
 
-- Almacenamiento: necesitarás espacio de almacenamiento para guardar todos los archivos del proyecto, de 10 a 20 GB serán suficientes para páginas pequeñas.
+- Almacenamiento: necesitarás espacio de almacenamiento para guardar todos los archivos del proyecto.
 - Ancho de banda: el ancho de banda es lo que determina qué tan rápido se intercambian datos entre el servidor y la página. Entre más visitantes haya, más ancho de banda se necesitará.
-- Seguridad: lo más recomendable es tener acceso al protocolo SSH, el cual encripta la información de nuestra página y protege los datos de los usuarios. No todos los planes de alojamiento ofrecen esto.
-- Servicio al cliente: si ocurre algún error desconocido en el servidor, no es deseable tener que averiguar lo que ocurre por nuestra cuenta. Contar con soporte técnico para nuestro servidor es algo importante para asegurar el funcionamiento continuo de la página.
+- Seguridad: lo más recomendable es tener acceso al protocolo SSH, el cual encripta la información de nuestra página y protege los datos de los usuarios.
+- Servicio al cliente
 
 ## Dominios
 
